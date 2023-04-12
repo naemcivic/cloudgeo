@@ -20,7 +20,7 @@ end
 
 class Cloudgeo::GoogleAutocomplete
   def self.source
-    :google_places_autocomplete
+    :google_autocomplete
   end
 
   def self.important_keys
